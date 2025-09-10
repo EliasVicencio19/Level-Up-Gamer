@@ -7,8 +7,8 @@ const productos = [
   { id: 6, nombre: "MousePad", precio: 7000 },
   { id: 7, nombre: "Luces Led", precio: 6500 },
   { id: 8, nombre: "Audifonos Gamer", precio: 15000 },
-  { id: 9, nombre: "Queso", precio: 2700 },
-  { id: 10, nombre: "Mantequilla", precio: 2100 }
+  { id: 9, nombre: "Memoria RAM 16GB", precio: 150000 },
+  { id: 10, nombre: "Gabinete", precio: 120000 }
 ];
 
 let carrito = JSON.parse(localStorage.getItem('carrito')) || []; 
