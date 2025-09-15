@@ -2,6 +2,13 @@
 
 /* Estilos básicos para un carrito de compras */
 
+body {
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
 .carrito-container {
     width: 380px; /* Más ancho */
     background: linear-gradient(135deg, #232526 0%, #414345 100%);
@@ -92,4 +99,38 @@
     color: #fff;
 }
 
-/* ...existing code... */
+/* Estilos para el header y navegación */
+header {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+nav a {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Estilos para el footer */
+footer {
+  background: #232323;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}

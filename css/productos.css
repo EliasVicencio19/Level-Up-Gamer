@@ -1,4 +1,26 @@
 /* Estilos básicos para la sección de productos */
+nav {
+    background: #1a1a1a;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
 
 .productos-container {
     display: flex;

@@ -11,19 +11,22 @@
     <h1>Tienda Online</h1>
     <nav>
       <ul>
-        <a href="index.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="carrito.html">Carrito</a>
-        <a href="contacto.html">Contacto</a>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="col-4">
-    <h2>🛒 Carrito</h2>
-    <div id="cart-list"></div>
-    <button onclick="vaciarCarrito()">Vaciar Carrito</button>
-  </div>
+  <main class="carrito-container">
+    <h2 class="carrito-titulo">🛒 Carrito</h2>
+    <ul id="cart-list" class="carrito-lista">
+      <!-- Los productos del carrito se insertarán aquí -->
+    </ul>
+    <div class="carrito-total">Total: $0.00</div>
+    <button class="carrito-btn" onclick="vaciarCarrito()">Vaciar Carrito</button>
+  </main>
 
   <footer>
     <p><center>&copy; 2025 Tienda Online</center></p>
