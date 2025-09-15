@@ -1,0 +1,73 @@
+/* Estilos básicos para la sección de productos */
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #181818;
+}
+
+.producto-card {
+    background: #232323;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 260px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.producto-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+}
+
+.producto-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: #333;
+}
+
+.producto-nombre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.producto-descripcion {
+    font-size: 0.95rem;
+    color: #bdbdbd;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.producto-precio {
+    font-size: 1.1rem;
+    color: #00ff99;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.producto-boton {
+    background: #00ff99;
+    color: #181818;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.producto-boton:hover {
+    background: #00cc77;
+}
